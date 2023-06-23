@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #724238;
+}
+
+body {
+  font-size: 1.8rem;
+}
+
+.flex {
+  display: flex;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.recipe__img {
+  height: 75vh;
+}
