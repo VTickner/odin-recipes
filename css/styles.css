@@ -13,19 +13,25 @@ body {
   font-size: 1.8rem;
 }
 
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav__item {
+  width: 100%;
+}
+
 .flex {
   display: flex;
   gap: 0.4rem;
   list-style: none;
 }
 
-.container {
-  width: 120rem;
-  margin: 0 auto;
-}
-
 .title {
+  font-size: 4.4rem;
   text-align: center;
+  padding: 2.4rem 0 3.2rem;
 }
 
 .recipe__img {

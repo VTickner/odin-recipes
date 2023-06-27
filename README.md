@@ -13,6 +13,7 @@ This project was part of [The Odin Project](https://www.theodinproject.com) cour
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Project Overview
 
@@ -52,7 +53,6 @@ TODO: add information
 - HTML5
 - CSS3
   - Flexbox
-  - CSS Grid
 
 ### What I learned
 
@@ -67,6 +67,7 @@ TODO: add information
 - [All Recipes](https://www.allrecipes.com/) - A large selection of recipes.
 - [Pexels Photos](https://www.pexels.com/) - Free stock royalty free photos and images.
 - [GIMP](https://www.gimp.org/) - Free and open source image editor.
+- [Coolers Colour Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) - Free tool that allows you to check the colour contrast of the text to background colour for accessibility / readability purposes.
 
 ## Author
 
