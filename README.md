@@ -46,6 +46,10 @@ TODO: add live site URL
 
 ## Process
 
+- Created the basic HTML structure of the recipe site and added images and recipe content.
+- Created the CSS for the index page (desktop), with also a zoom in hover effect on the images using transform: scale().
+- Added a footer copyright statement that updates the year using JavaScript.
+
 TODO: add information
 
 ### Built with
@@ -53,6 +57,9 @@ TODO: add information
 - HTML5
 - CSS3
   - Flexbox
+  - Transform: scale()
+- JavaScript
+  - Update copyright year
 
 ### What I learned
 

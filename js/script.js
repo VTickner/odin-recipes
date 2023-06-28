@@ -1,0 +1,7 @@
+///////////////////////////////////////////////////////////
+// Set current year in copyright statement
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
+///////////////////////////////////////////////////////////

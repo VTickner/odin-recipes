@@ -16,10 +16,11 @@ body {
 .container {
   width: 120rem;
   margin: 0 auto;
+  padding: 2.2rem;
 }
 
-.nav__item {
-  width: 100%;
+footer {
+  text-align: center;
 }
 
 .flex {
@@ -28,12 +29,49 @@ body {
   list-style: none;
 }
 
+.flex.nav {
+  gap: 3.2rem;
+}
+
 .title {
   font-size: 4.4rem;
   text-align: center;
   padding: 2.4rem 0 3.2rem;
 }
 
-.recipe__img {
-  height: 75vh;
+.nav__item {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.container__img {
+  overflow: hidden;
+}
+
+.nav__img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.nav__img:hover {
+  transform: scale(1.25);
+}
+
+.nav__title {
+  padding: 2.4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  color: #724238;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  text-decoration: underline;
 }
