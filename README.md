@@ -51,6 +51,7 @@ TODO: add live site URL
 - Added a footer copyright statement that updates the year using JavaScript.
 - Created the CSS for the recipe pages (desktop) and made square images to use for the recipe pages to have round image effect.
 - Refactored the CSS to make DRY.
+- Altered images to make smaller and reduced file size using Squoosh.
 
 TODO: add information
 
