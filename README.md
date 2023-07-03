@@ -39,8 +39,6 @@ Mobile:
 
 ### Links
 
-TODO: add live site URL
-
 - Solution URL: [https://github.com/VTickner/odin-recipes](https://github.com/VTickner/odin-recipes)
 - Live Site URL: [https://vtickner.github.io/odin-recipes/](https://vtickner.github.io/odin-recipes/)
 
@@ -49,11 +47,10 @@ TODO: add live site URL
 - Created the basic HTML structure of the recipe site and added images and recipe content.
 - Created the CSS for the index page (desktop), with also a zoom in hover effect on the images using transform: scale().
 - Added a footer copyright statement that updates the year using JavaScript.
-- Created the CSS for the recipe pages (desktop) and made square images to use for the recipe pages to have round image effect.
+- Created the CSS for the recipe pages (desktop) and made square images to use for the recipe pages to have a round image effect.
 - Refactored the CSS to make DRY.
-- Altered images to make smaller and reduced file size using Squoosh.
-
-TODO: add information
+- Altered images to make smaller and reduced file sizes using Squoosh.
+- Added media queries to CSS to create a responsive web design for smaller devices.
 
 ### Built with
 
@@ -66,18 +63,18 @@ TODO: add information
 
 ### What I learned
 
-In the previous lessons on The Odin Project I learnt how to set up a virtual machine (Virtual Box with Xubuntu), how to use terminal commands and basic git instructions. Therefore on this project I worked via the virtual machine and used git commands via a terminal to save the progress of the project to GitHub.
+In the previous lessons on The Odin Project I learnt how to set up a virtual machine (Virtual Box with Xubuntu), how to use terminal commands and basic Git instructions (clone, add, commit, pull, push). Therefore on this project, I worked via the virtual machine and used git commands via a terminal to save the progress of the project to GitHub.
 
-TODO: add information
+Whilst I didn't learn any new CSS for this project, I did put into practice into my own design, some techniques I had previously learnt about.
 
 ### Continued development
 
-TODO: add information
+To learn and practice using other Git instructions e.g. git merge.
 
 ### Useful resources
 
 - [Virtual Box](https://www.virtualbox.org/wiki/Downloads) - Virtual machine for windows.
-- [Xubuntu](https://xubuntu.org/) - A derivative of Ubuntu operating system.
+- [Xubuntu](https://xubuntu.org/) - A derivative of the Ubuntu operating system.
 - [All Recipes](https://www.allrecipes.com/) - A large selection of recipes.
 - [Pexels Photos](https://www.pexels.com/) - Free stock royalty free photos and images.
 - [GIMP](https://www.gimp.org/) - Free and open source image editor.

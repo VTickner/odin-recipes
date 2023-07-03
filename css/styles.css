@@ -158,3 +158,71 @@ li {
 .recipe--border {
   border: 1px solid #724238;
 }
+
+/*******************************/
+/*        MEDIA QUERIES        */
+/*  (Assume 1rem = 1em = 16px) */
+/*******************************/
+
+/*******************************/
+/*        BELOW 1104px         */
+/*******************************/
+
+@media (max-width: 69em) {
+  .container {
+    width: 90rem;
+  }
+}
+
+/*******************************/
+/*        BELOW 912px         */
+/*******************************/
+
+@media (max-width: 57em) {
+  .container {
+    width: 75rem;
+  }
+}
+
+/*******************************/
+/*        BELOW 752px         */
+/*******************************/
+
+@media (max-width: 47em) {
+  .container {
+    width: 90vw;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 2.4rem;
+  }
+
+  .title,
+  .recipe__title {
+    font-size: 3.6rem;
+  }
+
+  .nav__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .recipe {
+    padding: 2.4rem 3.2rem;
+  }
+}
+
+/*******************************/
+/*        BELOW 464px         */
+/*******************************/
+
+@media (max-width: 29em) {
+  .title,
+  .recipe__title {
+    font-size: 3rem;
+  }
+}
