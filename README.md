@@ -49,6 +49,8 @@ TODO: add live site URL
 - Created the basic HTML structure of the recipe site and added images and recipe content.
 - Created the CSS for the index page (desktop), with also a zoom in hover effect on the images using transform: scale().
 - Added a footer copyright statement that updates the year using JavaScript.
+- Created the CSS for the recipe pages (desktop) and made square images to use for the recipe pages to have round image effect.
+- Refactored the CSS to make DRY.
 
 TODO: add information
 
@@ -63,6 +65,8 @@ TODO: add information
 
 ### What I learned
 
+In the previous lessons on The Odin Project I learnt how to set up a virtual machine (Virtual Box with Xubuntu), how to use terminal commands and basic git instructions. Therefore on this project I worked via the virtual machine and used git commands via a terminal to save the progress of the project to GitHub.
+
 TODO: add information
 
 ### Continued development
@@ -71,9 +75,12 @@ TODO: add information
 
 ### Useful resources
 
+- [Virtual Box](https://www.virtualbox.org/wiki/Downloads) - Virtual machine for windows.
+- [Xubuntu](https://xubuntu.org/) - A derivative of Ubuntu operating system.
 - [All Recipes](https://www.allrecipes.com/) - A large selection of recipes.
 - [Pexels Photos](https://www.pexels.com/) - Free stock royalty free photos and images.
 - [GIMP](https://www.gimp.org/) - Free and open source image editor.
+- [Squoosh App](https://squoosh.app/) - Free tool that reduces image sizes.
 - [Coolers Colour Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) - Free tool that allows you to check the colour contrast of the text to background colour for accessibility / readability purposes.
 
 ## Author

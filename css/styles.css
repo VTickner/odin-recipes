@@ -13,14 +13,14 @@ body {
   font-size: 1.8rem;
 }
 
+/*******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*******************************/
+
 .container {
   width: 120rem;
   margin: 0 auto;
   padding: 2.2rem;
-}
-
-footer {
-  text-align: center;
 }
 
 .flex {
@@ -29,20 +29,65 @@ footer {
   list-style: none;
 }
 
-.flex.nav {
+.flex--column {
+  flex-direction: column;
+}
+
+.flex.nav,
+.flex--column {
   gap: 3.2rem;
 }
 
-.title {
-  font-size: 4.4rem;
+.card {
+  box-shadow: 0 3.2rem 6.4rem rgba(23, 13, 11, 0.1);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+/*******************************/
+/*  HELPER REUSABLE COMPONENTS */
+/*******************************/
+
+.center--text {
   text-align: center;
+}
+
+/*******************************/
+/*        TITLES & LISTS       */
+/*******************************/
+
+h2 {
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  margin-top: 1.6rem;
+}
+
+li {
+  margin-left: 2.4rem;
+  line-height: 1.8;
+}
+
+.title,
+.recipe__title {
+  font-size: 4.4rem;
   padding: 2.4rem 0 3.2rem;
 }
 
-.nav__item {
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
-  border-radius: 2rem;
-  overflow: hidden;
+/*******************************/
+/*    RECIPE NAV INDEX PAGE    */
+/*******************************/
+
+.nav__link:link,
+.nav__link:visited {
+  color: #724238;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  text-decoration: underline;
 }
 
 .container__img {
@@ -61,17 +106,51 @@ footer {
 
 .nav__title {
   padding: 2.4rem;
-  text-align: center;
   font-size: 2rem;
 }
 
-.nav__link:link,
-.nav__link:visited {
-  color: #724238;
+/*******************************/
+/*   BUTTON LINK RECIPE PAGE   */
+/*******************************/
+
+.btn {
+  padding: 2.2rem 0;
+}
+
+.btn--home:link,
+.btn--home:visited {
+  background-color: #724238;
+  color: #fff;
+  padding: 0.8rem 2.4rem;
+  font-size: 2rem;
+  border-radius: 2rem;
   text-decoration: none;
 }
 
-.nav__link:hover,
-.nav__link:active {
-  text-decoration: underline;
+.btn--home:hover,
+.btn--home:active {
+  background-color: #9c7b74;
+  transition: all 0.4s;
+}
+
+/*******************************/
+/*        RECIPE LAYOUT        */
+/*******************************/
+
+.recipe__title {
+  padding-bottom: 0;
+}
+
+.recipe {
+  padding: 3.2rem 6.4rem;
+}
+
+.recipe__img {
+  width: 16rem;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.recipe--border {
+  border: 1px solid #724238;
 }
