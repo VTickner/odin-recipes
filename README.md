@@ -42,7 +42,7 @@ Mobile:
 TODO: add live site URL
 
 - Solution URL: [https://github.com/VTickner/odin-recipes](https://github.com/VTickner/odin-recipes)
-- Live Site URL: []()
+- Live Site URL: [https://vtickner.github.io/odin-recipes/](https://vtickner.github.io/odin-recipes/)
 
 ## Process
 
