@@ -25,7 +25,6 @@ body {
 
 .flex {
   display: flex;
-  gap: 0.4rem;
   list-style: none;
 }
 
@@ -53,7 +52,7 @@ body {
 }
 
 /*******************************/
-/*        TITLES & LISTS       */
+/*    TITLES, LISTS, FOOTER    */
 /*******************************/
 
 h2 {
@@ -72,7 +71,11 @@ li {
 .title,
 .recipe__title {
   font-size: 4.4rem;
-  padding: 2.4rem 0 3.2rem;
+  padding: 1.6rem 0;
+}
+
+.footer {
+  padding: 1.6rem 0;
 }
 
 /*******************************/
@@ -105,8 +108,9 @@ li {
 }
 
 .nav__title {
-  padding: 2.4rem;
+  padding: 1.6rem;
   font-size: 2rem;
+  margin: 0;
 }
 
 /*******************************/
