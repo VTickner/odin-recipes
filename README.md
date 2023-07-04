@@ -29,8 +29,6 @@ The assignment was to create an index page that linked to three different recipe
 
 ### Screenshots
 
-TODO: add screenshots
-
 Desktop:  
 ![Desktop screenshot](./img/desktop-screenshot.jpg)
 
