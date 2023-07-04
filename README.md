@@ -32,10 +32,10 @@ The assignment was to create an index page that linked to three different recipe
 TODO: add screenshots
 
 Desktop:  
-![Desktop screenshot]()
+![Desktop screenshot](./img/desktop-screenshot.jpg)
 
 Mobile:  
-![Mobile screenshot]()
+![Mobile screenshot](./img/mobile-screenshot.jpg)
 
 ### Links
 
