@@ -51,6 +51,7 @@ Mobile:
 - Refactored the CSS to make DRY.
 - Altered images to make smaller and reduced file sizes using Squoosh.
 - Added media queries to CSS to create a responsive web design for smaller devices.
+- Edited :focus to match styling for keyboard only users.
 
 ### Built with
 
@@ -63,7 +64,7 @@ Mobile:
 
 ### What I learned
 
-In the previous lessons on The Odin Project I learnt how to set up a virtual machine (Virtual Box with Xubuntu), how to use terminal commands and basic Git instructions (clone, add, commit, pull, push). Therefore on this project, I worked via the virtual machine and used git commands via a terminal to save the progress of the project to GitHub.
+In the previous lessons on The Odin Project I learnt how to set up a virtual machine (Virtual Box with Xubuntu), how to use terminal commands and basic Git instructions (clone, add, commit, pull, push, status). Therefore on this project, I worked via the virtual machine and used git commands via a terminal to save the progress of the project to GitHub.
 
 Whilst I didn't learn any new CSS for this project, I did put into practice into my own design, some techniques I had previously learnt about.
 

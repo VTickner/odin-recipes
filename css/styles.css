@@ -6,11 +6,16 @@
 
 html {
   font-size: 62.5%;
-  color: #724238;
+  color: #;
 }
 
 body {
   font-size: 1.8rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgb(185, 161, 156);
 }
 
 /*******************************/
@@ -81,6 +86,10 @@ li {
 /*******************************/
 /*    RECIPE NAV INDEX PAGE    */
 /*******************************/
+
+.nav__item:focus-within {
+  box-shadow: 0 0 0 0.2rem rgb(185, 161, 156);
+}
 
 .nav__link:link,
 .nav__link:visited {
